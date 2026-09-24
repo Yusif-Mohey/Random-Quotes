@@ -1,17 +1,33 @@
-# random
+# Random Quote Generator
 
-A new Flutter project.
+A simple Flutter application that displays a random quote every time the user opens the app or clicks the **New Quote** button.
 
-## Getting Started
+The app focuses on clean UI, smooth animations, and a minimal user experience.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Display a random quote on app launch
+- Generate a new quote when clicking the **New Quote** button
+- Show both quote text and author name clearly
+- Clean and minimal UI
+- Light mode and dark mode support
+- Smooth animations for quote transitions
+- Loading state while changing quotes
+- Copy quote to clipboard
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Material Design
+- Local quote list
+
+## Project Structure
+
+```text
+lib/
+ ├── main.dart
+ ├── quote_home_page.dart
+ ├── quote_model.dart
+ └── services.dart
+
